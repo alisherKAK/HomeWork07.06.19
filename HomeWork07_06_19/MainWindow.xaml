@@ -7,6 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Rectangle Name="processBarRectangle" HorizontalAlignment="Left" Height="46" Margin="10,363,0,0" VerticalAlignment="Top" Width="627" Fill="Gray"/>
+        <Rectangle Name="processRectangle" Fill="Green" HorizontalAlignment="Left" Height="26" Margin="21,373,0,0" VerticalAlignment="Top" Width="0"/>
+        <Button Name="animationStartButton" Click="AnimationStartButtonClick" Content="Start" HorizontalAlignment="Left" Margin="10,316,0,0" VerticalAlignment="Top" Width="104" Height="28"/>
     </Grid>
 </Window>
